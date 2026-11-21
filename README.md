@@ -1,8 +1,4 @@
-[![Kofi](https://badgen.net/badge/icon/kofi?icon=kofi&label)](https://ko-fi.com/rvaiya)
-
 # 项目动机
-
-[![Packaging status](https://repology.org/badge/tiny-repos/keyd.svg)](https://repology.org/project/keyd/versions)
 
 Linux 缺乏一个好的按键重映射方案。为了实现满意的效果，通常需要组合使用多种工具（例如 xcape、xmodmap），最终结果往往被绑定在特定的显示环境（X11）中。keyd 试图通过提供一个灵活的系统级守护进程来解决这个问题，它使用内核级输入原语（evdev、uinput）来重映射按键。
 
